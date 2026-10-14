@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load("student_performance_model.pkl")
+model = joblib.load("Model/student_performance_model.pkl")
 
 st.title("Student Performance Prediction System")
 
